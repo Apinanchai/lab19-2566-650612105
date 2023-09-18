@@ -111,7 +111,7 @@ export default function Home() {
               />
               {loadingLogin && (
                 <Button onClick={login} disabled>
-                  login...
+                  Login...
                 </Button>
               )}
               {!loadingLogin && <Button onClick={login}>Login</Button>}
